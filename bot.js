@@ -38,7 +38,7 @@ client.on('message', message => {
 
     if (message.content === 'ping') {
     // Send "pong" to the same channel
-        message.channel.send('pong1');
+        message.channel.send('pong!');
         console.log('pong: ' + Date.now())
     } else if (message.content.match(/((([A-Za-z]{3,9}:(?:\/\/)?)(?:[-;:&=\+\$,\w]+@)?[A-Za-z0-9.-]+|(?:www.|[-;:&=\+\$,\w]+@)[A-Za-z0-9.-]+)((?:\/[\+~%\/.\w-_]*)?\??(?:[-\+=&;%@.\w_]*)#?(?:[\w]*))?)/)) {
     
